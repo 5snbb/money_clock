@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Frontend build output
+dist/
+dist-ssr/
+*.local
+
+# Rust / Tauri build output
+src-tauri/target/
+src-tauri/gen/schemas/
+target/
+
+# Logs and caches
+*.log
+npm-debug.log*
+pnpm-debug.log*
+.vite/
+.eslintcache
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Editors and operating systems
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.DS_Store
+Thumbs.db
+*.suo
+*.sw?
+
+# Local safety backups
+.backup/

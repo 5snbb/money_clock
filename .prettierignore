@@ -1,0 +1,13 @@
+# Dependencies and build output
+node_modules/
+dist/
+pnpm-lock.yaml
+
+# Tauri build artifacts, generated bindings and binary icons
+src-tauri/target/
+src-tauri/gen/
+src-tauri/icons/
+
+# Local backups and editor metadata
+.backup/
+.vscode/
